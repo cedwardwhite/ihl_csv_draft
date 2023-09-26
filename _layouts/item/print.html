@@ -1,0 +1,26 @@
+---
+# custom layout for IHL prints
+# 
+layout: item/item-page-base
+gallery: true
+---
+
+<div class="card mb-4 text-center">
+
+    {% if page.format == "application/pdf" %}
+    <p>
+        {% include item/item-thumb.html %}
+    </p>
+    {% else %}
+    {% include item/image-gallery.html %}
+    {% endif %}
+    
+    <div class="card-body">
+
+        {% include item/download-buttons.html %}
+        {% if page.artistid %}
+        <a href="{{ '/artists/' | append: page.artistid | append: '.html' | relative_url }}" class="ml-2 btn btn-outline-info">View Artist Info</a>{% endif %}
+
+    </div>
+
+</div>
