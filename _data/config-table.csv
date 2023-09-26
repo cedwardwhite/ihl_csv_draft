@@ -1,5 +1,24 @@
 field,display_name
-title,Title
-date,Date
-description,Description
-subject,Subjects
+title,title
+date_text,object dates
+creator,artist/creator
+description,description
+carver,carver
+printer,printer
+genre,genre
+format_print,format
+condition,condition
+colors,colors
+size_sheet,sheet size
+size_image,image size
+catalog,catalog number
+collections,collections
+impression_quality,impression quality
+lit//ref lit,literature reference
+location,location (scene or publication)
+date_first_issued,date first issued
+publisher,publisher
+seal,seal
+series,series
+signature,signature
+date,simple date

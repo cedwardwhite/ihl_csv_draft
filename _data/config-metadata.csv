@@ -1,14 +1,41 @@
 field,display_name,browse_link,external_link,dc_map,schema_map
 title,Title,,,DCTERMS.title,headline
+series,Series
 creator,Creator,,,DCTERMS.creator,creator
-date,Date Created,,,DCTERMS.date,dateCreated
+author,Author
+editor,Editor
+date_text,Narrative Date
+date,Earliest Date of Creation or Publication,,,DCTERMS.created,dateCreated
 description,Description,,,DCTERMS.description,description
+print_link,Myjapanesehanga.com Reference or other external link
+jsma_cat_link,This work is in the JSMA's collections and also published here
 subject,Subjects,true,,DCTERMS.subject,keywords
-location,Location,,,,contentLocation
-latitude,Latitude,,,,
-longitude,Longitude,,,,
-source,Source,,,,
-identifier,Source Identifier,,,,
-type,Type,,,DCTERMS.type,
-format,Format,,,,encodingFormat
+genre,Genre
+catalog,IHL Catalog No.
+artist,Artist
+signature,Signature
+seal,Seal
+writer,Writer of Text
+publication_date,Publication Date
+publisher,Publisher
+edition,Edition
+printing_date,Printing Date
+carver,Carver
+printer,Printer
+impression,Impression
+condition,Condition
+format_print,Format
+size_sheet,Sheet Size
+size_image,Image Size
+plate_making,Plate Making and Color Separation
+misc,Miscellaneous
+lit_ref,Reference Literature
+collections,Collections This Work
+location,Topic Location,,,,contentLocation
+latitude,Latitude
+longitude,Longitude
+source,Source
+identifier,Source Identifier
+type,,,,DCTERMS.type
+format,,,,,encodingFormat
 rightsstatement,,,,DCTERMS.rights,license
