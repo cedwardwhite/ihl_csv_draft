@@ -2,6 +2,7 @@ field,display_name,btn,hidden,sort_name
 creator,Creator,,,Creator
 publisher,Publisher,,,Publisher
 date_text,Date,,,Date
+genre,Genre,true
 subject,,true
 location,,true
 catalog,,,,Catalog Number
