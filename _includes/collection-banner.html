@@ -2,7 +2,7 @@
 <style>
 #home-banner {
     background-image: url('{{ site.data.featured_item.src | relative_url }}');
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: {{ site.data.theme.home-banner-image-position | default: 'center' }};
 }
