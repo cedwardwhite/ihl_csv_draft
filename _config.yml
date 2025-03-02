@@ -59,7 +59,7 @@ page_gen:
 #
 organization-name: "Jordan Schnitzer Museum of Art, University of Oregon"
 organization-link: https://jsma.uoregon.edu/
-organization-logo-banner: https://jsma.uoregon.edu/sites/all/themes/responsive/logo.png
+organization-logo-banner: assets/img/jsmalogo.png
 organization-logo-nav: https://jsma.uoregon.edu/sites/all/themes/responsive/logo.png
 
 ##########
