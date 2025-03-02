@@ -10,15 +10,17 @@
         {% for f in fields %}{% if page[f.field] %}
         <dt class="field">{{ f.display_name }}:</dt>
         <dd class="field-value">
-            {% if f.browse_link == "true" %}
-            {% assign topics = page[f.field] | split: ";" %}
-            {% for t in topics %}
-            <a class="me-3" href="{{ t | strip | url_param_escape | prepend: '/browse.html#' | relative_url }}">{{ t | strip }}</a>
-            {% endfor %}
-            {% elsif f.external_link == "true" %}
-            <a href="{{ page[f.field] }}" target="_blank" rel="noopener">{{ page[f.field] }}</a>
+            {% if f.field == "creator" %}
+                {% assign artist_name = page[f.field] %}
+                {% assign artist_record = site.data.artist-metadata | where: "title", artist_name | first %}
+                {% if artist_record %}
+                    <a href="/artists/{{ artist_record.objectid }}.html">{{ artist_name }}</a>
+                {% else %}
+                    {{ artist_name }}
+                {% endif %}
             {% else %}
-            {{ page[f.field] | replace: '""','"' }}{% endif %}
+                {{ page[f.field] | replace: '""','"' }}
+            {% endif %}
         </dd>
         {% endif %}{% endfor %}
     </dl>

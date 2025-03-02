@@ -1,7 +1,7 @@
 field,display_name,browse_link,external_link,dc_map,schema_map
 title,Title,,,DCTERMS.title,headline
 series,Series
-creator,Creator,,,DCTERMS.creator,creator
+creator,Creator,true,,DCTERMS.creator,creator
 author,Author
 editor,Editor
 date_text,Narrative Date
