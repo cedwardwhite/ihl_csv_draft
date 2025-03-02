@@ -57,7 +57,7 @@ page_gen:
 #   Enter information for your organization (replacing the CDIL links and name below) if you'd like to brand your site with a logo
 #   To remove the branding, comment out these values, or delete them. 
 #
-organization-name: "Jordan Schnitzer Museum of Art, University of Oregon"
+organization-name: "Jordan Schnitzer Museum of Art, University of Oregon--testing"
 organization-link: https://jsma.uoregon.edu/
 organization-logo-banner: assets/img/jsmalogo.png
 organization-logo-nav: assets/img/jsmalogo.png
