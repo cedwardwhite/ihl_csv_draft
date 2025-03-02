@@ -7,7 +7,7 @@ editor,Editor
 date_text,Narrative Date
 date,Earliest Date of Creation or Publication,,,DCTERMS.created,dateCreated
 description,Description,,,DCTERMS.description,description
-print_link,Myjapanesehanga.com Reference or other external link,,true,,
+print_link,Myjapanesehanga.com Reference or other external link,true,,
 jsma_cat_link,This work is in the JSMA's collections and also published here
 subject,Subjects,true,,DCTERMS.subject,keywords
 genre,Genre
