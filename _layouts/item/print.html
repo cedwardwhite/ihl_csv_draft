@@ -19,7 +19,7 @@ gallery: true
 
         {% include item/download-buttons.html %}
         {% if page.artistid %}
-        <a href="{{ '/artists/' | append: page.artistid | append: '.html' | relative_url }}" class="ml-2 btn btn-outline-info">View Artist Info</a>{% endif %}
+        <a href="{{ site.baseurl }}/artists/{{ page.artistid }}.html class="ml-2 btn btn-outline-info">View Artist Info</a>{% endif %}
 
     </div>
 
