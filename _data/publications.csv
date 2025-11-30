@@ -1,5 +1,5 @@
 id,title,authors,year,description,related_artists,related_objects,link
-pub1,Modern Hanga Studies,Jane Doe; John Smith,1066,Description_example_An in-depth study of modern hanga.,artist1;artist3,ihl-0123;ihl-0456,https://example.com/pub1
-pub2,Ukiyo-e and Beyond,Alice Lee,1453,Description_example_A comprehensive catalog.,001,ihl-0789,https://example.com/pub2
+pub1,Modern Hanga Studies,Jane Doe; John Smith,1066,Description_example_An in-depth study of modern hanga.,ihl_artist_005;ihl_artist_027,ihl-0123;ihl-0456,https://example.com/pub1
+pub2,Ukiyo-e and Beyond,Alice Lee,1453,Description_example_A comprehensive catalog.,ihl_artist_012,ihl-0789,https://example.com/pub2
 pub3,title example,Bob Jones,1922,Description_example_A comprehensive catalog.,ihl_artist_001,ihl-0788,
 ,,,,,,,
