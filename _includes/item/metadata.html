@@ -13,8 +13,10 @@
             {% if f.field == "creator" %}
                 {% assign artist_name = page[f.field] %}
                 {% assign artist_record = site.data.artist-metadata | where: "title", artist_name | first %}
-                {% if artist_record %}
-                <a href="{{ site.baseurl }}/artists/{{ artist_record.objectid }}.html">{{ artist_name }}</a>
+                {% if page.artistid %}
+                    <a href="{{ site.baseurl }}/artists/{{ page.artistid }}.html">{{ artist_name }}</a>
+                {% elsif artist_record %}
+                    <a href="{{ site.baseurl }}/artists/{{ artist_record.objectid }}.html">{{ artist_name }}</a>
                 {% else %}
                     {{ artist_name }}
                 {% endif %}
