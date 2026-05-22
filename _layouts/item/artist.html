@@ -46,7 +46,15 @@ layout: default
     <div class="mb-4">
         <h2>{{ page.title }}</h2><!--cew clipped "About" from page title, add back if ever needed-->
 
-        {{ page.bio_html }}
+        {% if page.bio_html_clean %}
+            {{ page.bio_html_clean }}
+        {% elsif page.bio_html %}
+            {{ page.bio_html }}
+        {% elsif page.bio_md %}
+            {{ page.bio_md | markdownify }}
+        {% else %}
+            <p><em>Biography unavailable.</em></p>
+        {% endif %}
 
     </div>
 
