@@ -8,7 +8,7 @@ permalink: /publications.html
 
 Selected publications referencing works or artists in this collection.
 
-{% assign publications = site.data.publications %}
+{% assign publications = site.data["publications-metadata"] %}
 {% for p in publications %}
 ---
 
