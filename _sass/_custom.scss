@@ -99,3 +99,97 @@
         gap: .15rem;
     }
 }
+
+.timeline-controls {
+    flex-wrap: wrap;
+    gap: .35rem;
+}
+
+.timeline-controls .btn {
+    border-radius: .25rem !important;
+}
+
+#timeline th {
+    width: 7rem;
+}
+
+#timeline .row {
+    --bs-gutter-y: .85rem;
+}
+
+.timeline-entry[hidden],
+#timeline tr[hidden] {
+    display: none !important;
+}
+
+.timeline-object a,
+.timeline-artist-card {
+    display: block;
+}
+
+.timeline-artist-card {
+    border: 1px solid #d8e0e8;
+    border-left: 4px solid #6f8fb3;
+    background: #f8fafc;
+    color: #1f2933;
+    min-height: 100%;
+    padding: .85rem .95rem;
+}
+
+.timeline-artist-card:hover {
+    border-color: #9bb1c9;
+    color: #0d6efd;
+}
+
+.timeline-entry-type {
+    color: #5f6f80;
+    display: block;
+    font-size: .78rem;
+    font-weight: 700;
+    letter-spacing: .02em;
+    margin-bottom: .35rem;
+    text-transform: uppercase;
+}
+
+.timeline-artist-title {
+    display: block;
+    font-weight: 700;
+    line-height: 1.25;
+}
+
+.timeline-artist-date {
+    color: #5f6f80;
+    display: block;
+    font-size: .95rem;
+    margin-top: .3rem;
+}
+
+@media (max-width: 575.98px) {
+    #timeline,
+    #timeline tbody,
+    #timeline tr,
+    #timeline th,
+    #timeline td {
+        display: block;
+        width: 100%;
+    }
+
+    #timeline th {
+        padding-bottom: .25rem;
+    }
+
+    #timeline td {
+        padding-top: 0;
+    }
+
+    .timeline-controls {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        width: 100%;
+    }
+
+    .timeline-controls .btn {
+        padding-left: .35rem;
+        padding-right: .35rem;
+    }
+}

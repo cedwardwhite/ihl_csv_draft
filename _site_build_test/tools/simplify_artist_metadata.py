@@ -26,6 +26,7 @@ RENAME_COLUMNS = {
 BAD_MARKERS = ("Â", "Ã", "â", "Å", "æ", "ç", "è", "�")
 REFERENCE_SEP = " | "
 URL_RE = re.compile(r"https?://[^\s<>)\]}\"']+")
+DATE_COLUMNS = ("start_year", "end_year", "date_type")
 COMMON_REPLACEMENTS = {
     "Â": "",
     "Å": "ō",
@@ -92,6 +93,44 @@ def normalize_space(text: str) -> str:
 
 def has_bad_markers(text: str) -> bool:
     return any(marker in (text or "") for marker in BAD_MARKERS)
+
+
+def parse_artist_date(date: str) -> dict[str, str]:
+    """Return simple machine-readable date fields without changing display date."""
+    original = normalize_space(date)
+    cleaned = original.strip().strip("()")
+    lowered = cleaned.casefold()
+    normalized_date = cleaned.replace("\u2013", "-").replace("\u2014", "-")
+    years = re.findall(r"\d{3,4}", normalized_date)
+
+    if not cleaned or lowered in {"?", "?-?", "-"}:
+        return {"start_year": "", "end_year": "", "date_type": "unknown"}
+
+    is_active = bool(re.search(r"\b(active|act\.|fl\.|floruit)\b", lowered))
+    is_birth = bool(re.search(r"\bb\.|born", lowered))
+    is_death = normalized_date.startswith("-") or normalized_date.startswith("?-")
+
+    start_year = years[0] if years else ""
+    end_year = years[1] if len(years) > 1 else ""
+
+    if is_active:
+        date_type = "active"
+        if start_year and not end_year:
+            end_year = start_year
+    elif is_birth:
+        date_type = "birth"
+    elif is_death:
+        date_type = "death"
+        start_year = ""
+        end_year = years[0] if years else ""
+    elif len(years) >= 2:
+        date_type = "birth-death"
+    elif start_year:
+        date_type = "birth"
+    else:
+        date_type = "unknown"
+
+    return {"start_year": start_year, "end_year": end_year, "date_type": date_type}
 
 
 def markdown_links(markdown: str) -> list[tuple[str, str]]:
@@ -282,6 +321,7 @@ def simplify_row(row: dict[str, str]) -> dict[str, str]:
     new_row["bio_text"] = bio_text
     new_row["bio_references"] = dedupe_refs(refs)
     new_row["notes"] = clean_notes(new_row.get("notes", ""), new_row.get("title", ""), bio_text)
+    new_row.update(parse_artist_date(new_row.get("date", "")))
     if has_confirmed_wrong_bio(new_row, bio_text) or "removed wrong artist bio" in new_row.get("notes", ""):
         title = normalize_space(new_row.get("title", ""))
         date = normalize_space(new_row.get("date", ""))
@@ -291,7 +331,13 @@ def simplify_row(row: dict[str, str]) -> dict[str, str]:
 
 
 def output_columns(input_columns: list[str]) -> list[str]:
-    columns = [RENAME_COLUMNS.get(col, col) for col in input_columns if col not in DROP_COLUMNS]
+    columns = [RENAME_COLUMNS.get(col, col) for col in input_columns if col not in DROP_COLUMNS and col not in DATE_COLUMNS]
+    if "date" in columns:
+        date_index = columns.index("date") + 1
+        for col in reversed(DATE_COLUMNS):
+            columns.insert(date_index, col)
+    else:
+        columns.extend(DATE_COLUMNS)
     for col in ("bio_text", "bio_references"):
         if col not in columns:
             columns.append(col)

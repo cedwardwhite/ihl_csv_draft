@@ -9,7 +9,47 @@
     // highlight year if hash
     if(window.location.hash) {
         var hashfilter = decodeURIComponent(location.hash.substr(1));
-        document.querySelector("tr#" + hashfilter).classList.add("bg-info");
+        var hashRow = document.querySelector("tr#" + hashfilter);
+        if (hashRow) {
+            hashRow.classList.add("bg-info");
+        }
     }
+
+    var filterButtons = document.querySelectorAll("[data-timeline-filter]");
+    var timelineRows = document.querySelectorAll("#timeline tr");
+
+    function setTimelineFilter(filter) {
+        document.body.dataset.timelineFilter = filter;
+
+        filterButtons.forEach(function(button) {
+            var isActive = button.dataset.timelineFilter === filter;
+            button.classList.toggle("active", isActive);
+            button.setAttribute("aria-pressed", isActive ? "true" : "false");
+        });
+
+        timelineRows.forEach(function(row) {
+            var entries = row.querySelectorAll(".timeline-entry");
+            var visibleCount = 0;
+
+            entries.forEach(function(entry) {
+                var type = entry.dataset.entryType;
+                var shouldShow = filter === "both" || filter === type + "s";
+                entry.hidden = !shouldShow;
+                if (shouldShow) {
+                    visibleCount += 1;
+                }
+            });
+
+            row.hidden = visibleCount === 0;
+        });
+    }
+
+    filterButtons.forEach(function(button) {
+        button.addEventListener("click", function() {
+            setTimelineFilter(button.dataset.timelineFilter);
+        });
+    });
+
+    setTimelineFilter("both");
 })();
 </script>

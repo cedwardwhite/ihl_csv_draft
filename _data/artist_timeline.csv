@@ -1,0 +1,371 @@
+objectid,title,date,start_year,end_year,date_type
+ihl_artist_001,Adachi Ginkō 安達吟光,active 1873-1902,1873,1902,active
+ihl_artist_002,Akagi Yasunobu 赤城泰舒,1889-1955,1889,1955,birth-death
+ihl_artist_003,Anonymous Artists 無名,,,,unknown
+ihl_artist_004,Asai Chū 浅井忠,1856-1907,1856,1907,birth-death
+ihl_artist_005,Asano Takeji 浅野竹二,1900-1999,1900,1999,birth-death
+ihl_artist_006,Ay-O 靉嘔,b. 1931,1931,,birth
+ihl_artist_007,Azechi Umetarō 畦地梅太郎,1902-1999,1902,1999,birth-death
+ihl_artist_008,Bairin 梅林,active 1894,1894,1894,active
+ihl_artist_009,Bannai Kōkan 坂内宏観,1900-1963,1900,1963,birth-death
+ihl_artist_010,Fujiki Kikumaro 藤木喜久麿,active c. 1919-1925,1919,1925,active
+ihl_artist_011,Fujimori Shizuo 藤森静雄,1891-1943,1891,1943,birth-death
+ihl_artist_012,Fujita Fumio 藤田不美夫,b. 1933,1933,,birth
+ihl_artist_013,Fukunaga Seihan 福永晴帆,1884-1961,1884,1961,birth-death
+ihl_artist_014,Funasaka Yoshisuke 舩坂芳助,b. 1939,1939,,birth
+ihl_artist_015,Gakyō 画狂,active 1904,1904,1904,active
+ihl_artist_016,"Hacker, Ernst",1917-1987,1917,1987,birth-death
+ihl_artist_017,Hagiwara Hideo 萩原英雄,1913-2007,1913,2007,birth-death
+ihl_artist_018,Hamada Josen 浜田如洗,1875-1928,1875,1928,birth-death
+ihl_artist_019,Hanpo 半哺,active 1904-1912,1904,1912,active
+ihl_artist_020,Hara Takeshi 原健,b. 1942,1942,,birth
+ihl_artist_021,Harada Kōkyo 原田耕挙,1863-1925,1863,1925,birth-death
+ihl_artist_022,Hasegawa Chikuyō 長谷川竹葉,act. c. 1870-1890s,1870,1890,birth-death
+ihl_artist_023,Hasegawa Sadanobu II 二代 長谷川貞信 (Konobu I 初代小信),1848-1940,1848,1940,birth-death
+ihl_artist_024,Hasegawa Sadanobu III 三代 長谷川貞信 (Konobu III 三代 小信 ),1881-1963,1881,1963,birth-death
+ihl_artist_025,Hatsuyama Shigeru 初山滋,1897-1973,1897,1973,birth-death
+ihl_artist_026,Hayakawa Shōzan 早川松山,1850-1892,1850,1892,birth-death
+ihl_artist_027,Hayami Shungyōsai 速水春暁斎,1767-1823,1767,1823,birth-death
+ihl_artist_028,Hayashi Motoharu 林基春,1858-1903,1858,1903,birth-death
+ihl_artist_029,Hiratsuka Un'ichi 平塚運一,1895-1997,1895,1997,birth-death
+ihl_artist_030,Hirezaki Eihō 鰭崎英朋,1880-1968,1880,1968,birth-death
+ihl_artist_031,Hirose Harutaka 広瀬春孝,1870-?,1870,,birth
+ihl_artist_032,Hishikawa Harunobu 菱川春宣,active 1875-1891,1875,1891,active
+ihl_artist_033,Hiyoshi Mamoru 日吉守,1885-?,1885,,birth
+ihl_artist_034,Ida Shōichi 井田照一,1941-2006,1941,2006,birth-death
+ihl_artist_035,Ide Gakusui 井出岳水,1899-1978,1899,1978,birth-death
+ihl_artist_036,Igawa Sengai 井川洗厓,1876-1961,1876,1961,birth-death
+ihl_artist_037,Ikeda Terukata 池田輝方,1883-1921,1883,1921,birth-death
+ihl_artist_038,Imae Shunkin 今江春近,active 1881-1895,1881,1895,active
+ihl_artist_039,Inagaki Tomoo 稲垣知雄,1902-1980,1902,1980,birth-death
+ihl_artist_040,Inoue Yasuji 井上安治 (Tankei 探景),1864-1889,1864,1889,birth-death
+ihl_artist_041,Ishii Hakutei 石井柏亭,1882-1958,1882,1958,birth-death
+ihl_artist_042,Ishikawa Toraji 石川寅治,1875-1964,1875,1964,birth-death
+ihl_artist_043,Ishiwata Kōitsu 石渡江逸,1897-1987,1897,1987,birth-death
+ihl_artist_044,Ishizuka Kan 石塚翰,active c. 1915,1915,1915,active
+ihl_artist_045,Isoda Chōshū 磯田長秋,1880-1947,1880,1947,birth-death
+ihl_artist_046,Itō Nisaburō 伊藤仁三郎,1905-2001,1905,2001,birth-death
+ihl_artist_047,Itō Takashi 伊藤孝之,1894-1982,1894,1982,birth-death
+ihl_artist_048,Iwami Reika 岩見禮花,1927-2020,1927,2020,birth-death
+ihl_artist_049,Jōkata Kaiseki 定方塊石,1882-1966,1882,1966,birth-death
+ihl_artist_050,Kaburaki Kiyokata 鏑木清方,1878-1972,1878,1972,birth-death
+ihl_artist_051,Kamei Tōbei 亀井藤兵衛,1901-1977,1901,1977,birth-death
+ihl_artist_052,Kasamatsu Shirō 笠松紫浪,1898–1991,1898,1991,birth-death
+ihl_artist_053,Katō Tetsunosuke 加藤哲之助,active c. 1925–1950,1925,1950,active
+ihl_artist_054,Kawakami Sumio 川上澄生,1895-1972,1895,1972,birth-death
+ihl_artist_055,Kawanabe Kyōsai 河鍋暁斎,1831-1889,1831,1889,birth-death
+ihl_artist_056,Kawanishi Hide 川西英,1894-1965,1894,1965,birth-death
+ihl_artist_057,Kawanishi Yūzaburō 川西祐三郎,1923-2014,1923,2014,birth-death
+ihl_artist_058,Kawase Hasui,1883-1957,1883,1957,birth-death
+ihl_artist_059,Kikuchi Keigetsu 菊池契月,1879-1955,1879,1955,birth-death
+ihl_artist_060,Kinoshita Hironobu II 木下広信,1844-?,1844,,birth
+ihl_artist_061,Kinoshita Tomio 木下富雄,1923-c. 2011,1923,2011,birth-death
+ihl_artist_062,Kiritani (Kirigaya) Senrin 桐谷洗麟,1876-1932,1876,1932,birth-death
+ihl_artist_063,Kitaoka Fumio 北岡文雄,1918-2007,1918,2007,birth-death
+ihl_artist_064,Kobayashi Eitaku 小林永濯,1843-1890,1843,1890,birth-death
+ihl_artist_065,Kobayashi Ikuhide 小林幾英,active c. 1880-1898,1880,1898,active
+ihl_artist_066,Kobayashi Kiyochika 小林清親,1847-1915,1847,1915,birth-death
+ihl_artist_067,Kobayashi Toshimitsu 古林年光,active 1877–1904,1877,1904,active
+ihl_artist_068,Koga Misao 古賀操,active c. 1960s-1980s,1960,1980,active
+ihl_artist_069,Koito Gentarō 小絲源太郎,1887-1978,1887,1978,birth-death
+ihl_artist_070,Koizumi Kishio 小泉癸巳男,1893-1945,1893,1945,birth-death
+ihl_artist_071,Kojima Shōgetsu 小島勝月,active c. 1870–1904,1870,1904,active
+ihl_artist_072,Kondō Kōichiro 近藤浩一路,1884–1962,1884,1962,birth-death
+ihl_artist_073,Kondō Shiun 近藤紫雲,fl. c. 1915– 1940,1915,1940,birth-death
+ihl_artist_074,Konishi Seiichirō 小西誠一郎,b. 1919,1919,,birth
+ihl_artist_075,Kōno Bairei 幸野楳嶺,1844-1895,1844,1895,birth-death
+ihl_artist_076,Kotozuka Eiichi 琴塚英一,1906-1979,1906,1979,birth-death
+ihl_artist_077,Kubota Beisen 久保田米僊,1852-1906,1852,1906,birth-death
+ihl_artist_078,Kuroki Sadao 黒木貞雄,1908-1984,1908,1984,birth-death
+ihl_artist_079,Kusaka Kenji 日下賢二,b. 1936,1936,,birth
+ihl_artist_080,Mabe Tokio 間部時雄,1885-1968,1885,1968,birth-death
+ihl_artist_081,Mabuchi Tōru 馬淵聖,1920-1994,1920,1994,birth-death
+ihl_artist_082,Maeda Masao 前田政雄,1904-1974,1904,1974,birth-death
+ihl_artist_083,Maekawa Senpan 前川千帆,1888-1960,1888,1960,birth-death
+ihl_artist_084,Maki Haku 巻白,1924-2000,1924,2000,birth-death
+ihl_artist_085,Matsuda Seifū 松田青風,1880-1978,1880,1978,birth-death
+ihl_artist_086,Matsumura Keibun 松村景文,1779-1843,1779,1843,birth-death
+ihl_artist_087,Matsuno Hideyo 松野秀世,1936-2002,1936,2002,birth-death
+ihl_artist_088,Matsuno Sōfū 松野奏風,1899-1963,1899,1963,birth-death
+ihl_artist_089,Migita Toshihide 右田年英,1863-1925,1863,1925,birth-death
+ihl_artist_090,Miki Suizan 三木翠山,1887-1957,1887,1957,birth-death
+ihl_artist_091,Miyake Katsumi 三宅克己 (Kokki),1874-1954,1874,1954,birth-death
+ihl_artist_092,Miyashita Tokio 宮下登喜雄,1930–2011,1930,2011,birth-death
+ihl_artist_093,Miyata Saburō 宮田三郎,1924-2013,1924,2013,birth-death
+ihl_artist_094,Mizuno Toshikata 水野年方,1866-1908,1866,1908,birth-death
+ihl_artist_095,Mizushima Nihofu (Nihou) 水島爾保布,1884-1958,1884,1958,birth-death
+ihl_artist_096,Mori Yoshitoshi 森義利,1898-1992,1898,1992,birth-death
+ihl_artist_097,Morikawa Chikashige 守川周重,active 1869 - January 1882,1869,1882,active
+ihl_artist_098,Morita Hisashi 森田久,active c. 1920s,1920,1920,active
+ihl_artist_099,Morita Kakō 森田華香,active c. 1904/1930,1904,1930,active
+ihl_artist_100,Moriyama Shūji 森山収治,1890-?,1890,,birth
+ihl_artist_101,Nagashima Shungyō 永嶌春暁,active 1870-1905,1870,1905,active
+ihl_artist_102,Nakamura Shūkō 秋香,active c. 1894-1904,1894,1904,active
+ihl_artist_103,Nakazawa Hiromitsu 中沢弘光,1874-1964,1874,1964,birth-death
+ihl_artist_104,Narazaki Eishō 楢崎栄昭,1864-1936,1864,1936,birth-death
+ihl_artist_105,Natori Shunsen 名取春仙,1886-1960,1886,1960,birth-death
+ihl_artist_106,Nishimura Goun 西村五雲,1877-1938,1877,1938,birth-death
+ihl_artist_107,Nishiyama Suishō 西山翠嶂,1879-1958,1879,1958,birth-death
+ihl_artist_108,Noda Kyūho 野田九浦,1879-1971,1879,1971,birth-death
+ihl_artist_109,Noguchi Kōgai 野口紅涯 (野口紅厓),"born c. 1899, active c. 1919-1930s",1899,1919,active
+ihl_artist_110,Nomura Yoshimitsu 野村芳光,1870-1958,1870,1958,birth-death
+ihl_artist_111,Oda Tomiya 小田富弥,1896-1990,1896,1990,birth-death
+ihl_artist_112,Ogata Gekkō 尾形月耕,1859-1920,1859,1920,birth-death
+ihl_artist_113,Ogawa Hyōe (Heibei) 小川兵衛,active c. 1915,1915,1915,active
+ihl_artist_114,Ogawa Usen 小川芋銭,1868-1938,1868,1938,birth-death
+ihl_artist_115,Ogyū Tensen 荻生天泉,1882-1947,1882,1947,birth-death
+ihl_artist_116,Ohara Koson 小原古邨 (Shōson 祥邨),1877-1945,1877,1945,birth-death
+ihl_artist_117,Oka Shikanosuke 岡鹿之助,1898-1978,1898,1978,birth-death
+ihl_artist_118,Okada Saburōsuke 岡田三郎助,1869-1939,1869,1939,birth-death
+ihl_artist_119,Okano Sakae 岡野栄,1890-1942,1890,1942,birth-death
+ihl_artist_120,Okubo Yutaka 大久保担,1924-2008,1924,2008,birth-death
+ihl_artist_121,Ōkura Kōtō 大倉耕涛,1873-1910,1873,1910,birth-death
+ihl_artist_122,Onchi Kōshirō 恩地孝四郎,1891-1955,1891,1955,birth-death
+ihl_artist_123,Ōshiro Sadao 大城貞夫,1908-1981,1908,1981,birth-death
+ihl_artist_124,Ōta Chōu 太田聴雨,1896-1958,1896,1958,birth-death
+ihl_artist_125,Ōuchi Makoto 大内マコト,1926-1989,1926,1989,birth-death
+ihl_artist_126,Yuki Rei 由木礼,1928-2003,1928,2003,birth-death
+ihl_artist_127,Ryōji Chōmei 料治潮鳴,1899-1982,1899,1982,birth-death
+ihl_artist_128,Saitō Kiyoshi 斎藤清,1907-1997,1907,1997,birth-death
+ihl_artist_129,Sakamoto Hanjirō 坂本繁二郎,1882-1969,1882,1969,birth-death
+ihl_artist_130,Sakamoto Isamu 坂本勇,b. 1931,1931,,birth
+ihl_artist_131,Sasajima Kihei 笹島喜平,1906-1993,1906,1993,birth-death
+ihl_artist_132,Sekino Jun’ichirō 関野準一郎,1914-1988,1914,1988,birth-death
+ihl_artist_133,Sekisai Kuniyasu 石斎国保,active 1880–1890s,1880,1890,active
+ihl_artist_134,Shima Tamami 島珠実,1937-1999,1937,1999,birth-death
+ihl_artist_135,Shimada Bokusen 島田墨仙,1867–1943,1867,1943,birth-death
+ihl_artist_136,Shinagawa Takumi 品川工,1908-2009,1908,2009,birth-death
+ihl_artist_137,Shōsai Ikkei 昇斎 一景,fl. c. 1870s,1870,,birth
+ihl_artist_138,Shusetsu 守拙,active c. 1900,1900,1900,active
+ihl_artist_139,Suga Tatehiko 菅楯彦,1878-1963,1878,1963,birth-death
+ihl_artist_140,Suzuki Toshimoto 鈴木年基,active 1877-1890s,1877,1890,active
+ihl_artist_141,Tadashige Ono 小野忠重,1909-1990,1909,1990,birth-death
+ihl_artist_142,Taguchi Beisaku 田口米作,1864-1903,1864,1903,birth-death
+ihl_artist_143,Tajima Hiroyuki 田嶋宏行,1911-1984,1911,1984,birth-death
+ihl_artist_144,Takagi Shirō 高木志朗,1934-1998,1934,1998,birth-death
+ihl_artist_145,Takahashi Rikio 高橋力雄,1917-1998,1917,1998,birth-death
+ihl_artist_146,Takashima Unpō 高島雲峰,1894-1987,1894,1987,birth-death
+ihl_artist_147,Takeda Hideo 武田秀雄,b. 1948,1948,,birth
+ihl_artist_148,Takehisa Yumeji 竹久夢二,1884-1934,1884,1934,birth-death
+ihl_artist_149,Takeuchi Keishū 武内桂舟,1861-1942,1861,1942,birth-death
+ihl_artist_150,Takeuchi Seihō 竹内栖鳳,1864-1942,1864,1942,birth-death
+ihl_artist_151,Tamamura Hokuto 玉村方久斗,1893-1951,1893,1951,birth-death
+ihl_artist_152,Terasawa Kōtarō 寺澤孝太郎,fl. ca. 1915,1915,,birth
+ihl_artist_153,Tokuriki Tomikichirō 徳力富吉郎,1902-2000,1902,2000,birth-death
+ihl_artist_154,Tomita Keisen 冨田溪仙,1879-1936,1879,1936,birth-death
+ihl_artist_155,Torii Kiyosada 鳥居清貞,1844-1901,1844,1901,birth-death
+ihl_artist_156,Torii Kiyotada VII 七代 鳥居清忠,1875-1941,1875,1941,birth-death
+ihl_artist_157,Torii Kotondo 鳥居言人,1900-1976,1900,1976,birth-death
+ihl_artist_158,Toyohara Chikamitsu 豊原周光,active c. 1891- 1896,1891,1896,active
+ihl_artist_159,Toyohara Chikayoshi 豊原周義,fl. 1870s-1880s,1870,1880,birth-death
+ihl_artist_160,Toyohara Kunichika 豊原国周,1835–1900,1835,1900,birth-death
+ihl_artist_161,Tsuchiya Kōitsu 土屋光逸,1870-1949,1870,1949,birth-death
+ihl_artist_162,Tsukioka Gyokusei 月岡玉瀞,1908-1994,1908,1994,birth-death
+ihl_artist_163,Tsukioka Kōgyo 月岡耕漁,1869-1927,1869,1927,birth-death
+ihl_artist_164,Tsukioka Yoshitoshi 月岡芳年,1839-1892,1839,1892,birth-death
+ihl_artist_165,Tsuneshige 経茂,active 1894-1904?,1894,1904,active
+ihl_artist_166,Uchima Ansei 内間安瑆,1921-2000,1921,2000,birth-death
+ihl_artist_167,Ueda Fujō 上田富丈,1899-1979,1899,1979,birth-death
+ihl_artist_168,Unread,,,,unknown
+ihl_artist_169,Unsen 雲僊,active. c. 1874,1874,1874,active
+ihl_artist_170,Utagawa Fusatane 歌川房種,active 1854-1888,1854,1888,active
+ihl_artist_171,Utagawa Hiroshige II 二代 歌川広重,1826-1869,1826,1869,birth-death
+ihl_artist_172,Utagawa Hiroshige III 三代 歌川広重,1842–1894,1842,1894,birth-death
+ihl_artist_173,Utagawa Kokunimasa 歌川小国政,1874-1944,1874,1944,birth-death
+ihl_artist_174,Utagawa Kuniaki II 二代 歌川国,1835-1888,1835,1888,birth-death
+ihl_artist_175,Utagawa Kunimasa IV 四代 歌川国政,1848-1920,1848,1920,birth-death
+ihl_artist_176,Utagawa Kunimatsu 歌川国松,1855-1944,1855,1944,birth-death
+ihl_artist_177,Utagawa Kunisada I 歌川国貞,1786–1865,1786,1865,birth-death
+ihl_artist_178,Utagawa Kunisada II 二代 歌川国貞,1823-1880,1823,1880,birth-death
+ihl_artist_179,Utagawa Kuniteru I 初代 歌川 国輝,active ca. 1820-1860,1820,1860,active
+ihl_artist_180,Utagawa Kuniteru II ニ代 歌川国輝,1830-1874,1830,1874,birth-death
+ihl_artist_181,Utagawa Kuniteru III 三代 歌川国輝,active c. 1886-1895,1886,1895,active
+ihl_artist_182,Utagawa Kunitoshi 歌川国利,1847-1899,1847,1899,birth-death
+ihl_artist_183,Utagawa Masanobu 歌川政信,fl. 1882-1887,1882,1887,birth-death
+ihl_artist_184,Utagawa Sadahide 歌川貞秀,1807-1873,1807,1873,birth-death
+ihl_artist_185,Utagawa Toshimasa 歌川年昌 (Shunsai 春斎),1866-1913,1866,1913,birth-death
+ihl_artist_186,Utagawa Yoshiiku 歌川芳幾,1833-1904,1833,1904,birth-death
+ihl_artist_187,Utagawa Yoshimine 歌川芳峯,active c. 1855-1877,1855,1877,active
+ihl_artist_188,Utagawa Yoshimori 歌川芳盛,1830–1884,1830,1884,birth-death
+ihl_artist_189,Utagawa Yoshimune II 二代 歌川芳宗,1863-1941,1863,1941,birth-death
+ihl_artist_190,Utagawa Yoshitaki 歌川芳滝,1841-1899,1841,1899,birth-death
+ihl_artist_191,Utagawa Yoshitora 歌川芳虎,fl. c. 1836-1882,1836,1882,birth-death
+ihl_artist_192,Utagawa Yoshitsuya 歌川芳艶,1822-1866,1822,1866,birth-death
+ihl_artist_193,Utagawa Yoshitsuya II 二代 歌川芳艶,active 1870s,1870,1870,active
+ihl_artist_194,Wada Sanzō 和田三造,1883-1967,1883,1967,birth-death
+ihl_artist_195,Wakayama Yasōji 若山八十氏,1903-1983,1903,1983,birth-death
+ihl_artist_196,Watanabe Nobukazu 渡辺延一,1872-1944,1872,1944,birth-death
+ihl_artist_197,Yamada Toshitada 山田年忠 (Yamada Keichū 山田敬中),1868-1934,1868,1934,birth-death
+ihl_artist_198,Yamaguchi Gen 山口源,1896-1976,1896,1976,birth-death
+ihl_artist_199,Yamaguchi Sohei 山口草平,1882-1961,1882,1961,birth-death
+ihl_artist_200,Yamamura Toyonari 山村豊成 (Yamamura Kōka 山村耕花),1885-1942,1885,1942,birth-death
+ihl_artist_201,Yamazaki Toshinobu 山崎年信,1857-1886,1857,1886,birth-death
+ihl_artist_202,Yasui Sōtarō 安井曾太郎,1888–1955,1888,1955,birth-death
+ihl_artist_203,Bunshin 文信,active 1800-1880,1800,1880,active
+ihl_artist_204,Yōsai Nobushige 揚斎延重,act. 1894-1897,1894,1897,birth-death
+ihl_artist_205,Yoshida Chizuko 吉田千鶴子,1924-2017,1924,2017,birth-death
+ihl_artist_206,Yoshida Hiroshi 吉田博,1876-1950,1876,1950,birth-death
+ihl_artist_207,Yoshida Hodaka 吉田穂高,1926-1995,1926,1995,birth-death
+ihl_artist_208,Yoshida Masaji 吉田政次,1917–1971,1917,1971,birth-death
+ihl_artist_209,Yoshida Tōshi 吉田遠志,1911-1995,1911,1995,birth-death
+ihl_artist_210,Yōshū Chikanobu 楊洲周延,1838-1912,1838,1912,birth-death
+ihl_artist_211,Yukawa Hiromitsu 湯川広光,active c. 1894,1894,1894,active
+ihl_artist_212,Yūsai Toshiaki 幽斎年章,1864-1921,1864,1921,birth-death
+ihl_artist_213,Akamatsu Rinsaku 赤松麟作,1878-1953,1878,1953,birth-death
+ihl_artist_214,Amano Kunihiro 天野邦弘,1929-2020,1929,2020,birth-death
+ihl_artist_215,Arai Shōri 新井勝利,1895-1972,1895,1972,birth-death
+ihl_artist_216,"Brangwyn, Frank",1867-1956,1867,1956,birth-death
+ihl_artist_217,Kitani Chigusa 木谷千種,1895-1947,1895,1947,birth-death
+ihl_artist_218,Ebina Masao 海老名正夫,1913-1980,1913,1980,birth-death
+ihl_artist_219,Fukiya Kōji 蕗谷虹児,1898-1979,1898,1979,birth-death
+ihl_artist_220,Hasegawa Yuichi 長谷川雄一,b. 1945,1945,,birth
+ihl_artist_221,Hishikawa Sōri III 三代目 菱川宗理,active c. 1798-1840,1798,1840,active
+ihl_artist_222,Ikeda Shōen 池田蕉園,1886-1917,1886,1917,birth-death
+ihl_artist_223,Ikeda Shūzō 池田修三,1922-2004,1922,2004,birth-death
+ihl_artist_224,Itō Shinsui 伊東 深水,1898-1972,1898,1972,birth-death
+ihl_artist_225,Kawabune Misao 川船水棹,1887-1980,1887,1980,birth-death
+ihl_artist_226,Kitano Tsunetomi 北野恒富,1880-1947,1880,1947,birth-death
+ihl_artist_227,Kitao Masayoshi (Kuwagata Keisai) 北尾政美 (鍬形蕙齋),1764-1824,1764,1824,birth-death
+ihl_artist_228,Kurihara Gyokuyō 栗原玉葉,1883 - 1922,1883,1922,birth-death
+ihl_artist_229,Kurosaki Akira 黒崎彰,1937-2019,1937,2019,birth-death
+ihl_artist_230,Mabuchi Hikaru 馬淵晃,1929-?,1929,,birth
+ihl_artist_231,Matsumoto Fūko 松本楓湖,1840-1923,1840,1923,birth-death
+ihl_artist_232,Moritani Rikio 森谷利喜雄,active 1920s,1920,1920,active
+ihl_artist_233,Munakata Shikō 棟方志功,1903-1975,1903,1975,birth-death
+ihl_artist_234,Mutō Kan'ichi 武藤完一,1892-1982,1892,1982,birth-death
+ihl_artist_235,Nishijima Katsuyuki 西嶋勝之,b. 1945,1945,,birth
+ihl_artist_236,Nonaka Mitsumasa 野中光正,b. 1949,1949,,birth
+ihl_artist_237,Ōtahara Tsukasa 太田原司,active 1950-1995,1950,1995,active
+ihl_artist_238,Ōhashi Gekko 大橋月皎,b. 1895,1895,,birth
+ihl_artist_239,Okuyama Gihachirō 奥山儀八郎,1907-1981,1907,1981,birth-death
+ihl_artist_240,Saitō Noriko サイトウノリコ,b. 1973,1973,,birth
+ihl_artist_241,Sekino Yowsaku 関野洋作,b. 1944,1944,,birth
+ihl_artist_242,Serizawa Keisuke 芹沢銈介,1895-1984,1895,1984,birth-death
+ihl_artist_243,Shibata Zeshin 柴田是真,1808-1891,1808,1891,birth-death
+ihl_artist_244,Shinoda Tōkō 篠田桃紅,1913-2021,1913,2021,birth-death
+ihl_artist_245,Soga Shōhaku 曾我蕭白,1730–1781,1730,1781,birth-death
+ihl_artist_246,Sugiura Hisui 杉浦非水,1876-1965,1876,1965,birth-death
+ihl_artist_247,Takahashi Shōtei (Hiroaki) 高橋松亭 (弘明),1871-1945,1871,1945,birth-death
+ihl_artist_248,Torii Kotondo 鳥居言人,1900-1976,1900,1976,birth-death
+ihl_artist_249,Tōshūsai Sharaku 東洲斎写楽,a.1794–1795,1794,1795,birth-death
+ihl_artist_250,Tomioka Eisen 富岡永洗,1864-1905,1864,1905,birth-death
+ihl_artist_251,Tsutsui Toshimine 筒井年峰,1863-1934,1863,1934,birth-death
+ihl_artist_252,Utagawa Kunikazu 歌川国員,active 1848-1868,1848,1868,active
+ihl_artist_253,Utagawa Nobuyuki 歌川延雪,1878-?,1878,,birth
+ihl_artist_254,Utagawa Toyonobu 歌川豊宣,1859–1886,1859,1886,birth-death
+ihl_artist_255,Watanabe Kōgai 渡辺香涯,1874-1961,1874,1961,birth-death
+ihl_artist_256,Watanabe Sadao 渡辺禎雄,1913-1996,1913,1996,birth-death
+ihl_artist_257,Yamagishi Kazue 山岸主計,1891-1984,1891,1984,birth-death
+ihl_artist_258,Yamakawa Shūhō 山川秀峰,1898-1944,1898,1944,birth-death
+ihl_artist_259,Yamamoto Eishun 山本英春,1879-?,1879,,birth
+ihl_artist_260,Yamanaka Kodō 山中古洞,1869-1945,1869,1945,birth-death
+ihl_artist_261,Yoshikawa Koshimine 吉川越峰,active 1950s,1950,1950,active
+ihl_artist_263,Akatsuka Chūichi 赤塚忠一,1887-?,1887,,birth
+ihl_artist_264,Dōmoto Inshō 堂本印象,1891-1975,1891,1975,birth-death
+ihl_artist_266,Fujiyama Taneyoshi 藤山種芳,active early 19th century,,,active
+ihl_artist_267,Fukita Fumiaki 吹田文明,(b. 1926),1926,,birth
+ihl_artist_268,Fukuda Heihachirō 福田平八郎,1892-1974,1892,1974,birth-death
+ihl_artist_269,Hachijirō 八二郎,?-?,,,unknown
+ihl_artist_270,Chiura Obata 小圃千浦,1885-1975,1885,1975,birth-death
+ihl_artist_271,Nagase Morimatsu? 長瀬盛松,active c. 1885,1885,1885,active
+ihl_artist_272,Nakai Toshiyama? 中井利山,active c. 1885,1885,1885,active
+ihl_artist_273,Asada Benji 麻田辨次,1899-1984,1899,1984,birth-death
+ihl_artist_274,Uemura Shōen 上村松園,1875–1949,1875,1949,birth-death
+ihl_artist_275,Uenaka Chokusai 植中直斎,1885-1977,1885,1977,birth-death
+ihl_artist_276,Unidentified,,,,unknown
+ihl_artist_277,Unknown,,,,unknown
+ihl_artist_278,Unknown - after a work by Kawase Hasui 川瀬巴水,1883-1957,1883,1957,birth-death
+ihl_artist_279,Unknown - artist for frontispiece,,,,unknown
+ihl_artist_280,Unknown - the sketches of the honzon are not credited. Principle artist for portfolio is Nakazawa Hiromitsu 中沢弘光,1874-1964,1874,1964,birth-death
+ihl_artist_281,Urano Ginjirō 浦野銀次郎,active Taishō era,,,active
+ihl_artist_282,Hasegawa Sonokichi 長谷川園吉,active 1877-1905,1877,1905,active
+ihl_artist_283,Watanabe Seitei 渡辺省亭,1851-1918,1851,1918,birth-death
+ihl_artist_284,Watanabe Tadahisa 渡辺忠久,active 1881-1900,1881,1900,active
+ihl_artist_285,Y. Maru,(?-?),,,unknown
+ihl_artist_286,Yamada Kisaku 山田喜作,1900-1963,1900,1963,birth-death
+ihl_artist_287,Yamashita Shintarō 山下新太郎,1881-1966,1881,1966,birth-death
+ihl_artist_288,Honda Kinkichirō 本多錦吉郎,1850-1921,1850,1921,birth-death
+ihl_artist_289,Yokoyama Taikan 横山大観,1868-1958,1868,1958,birth-death
+ihl_artist_290,Imao Keinen 今尾景年,1845-1923,1845,1923,birth-death
+ihl_artist_291,Inagaki Kadō 稲垣蝸堂,act. 1904-1930s,1904,1930,birth-death
+ihl_artist_292,Inagaki Toshijirō 稲垣稔次郎,1902-1963,1902,1963,birth-death
+ihl_artist_293,Inano Toshitsune 稲野年恒,1858-1907,1858,1907,birth-death
+ihl_artist_294,Ino Eiji 井野英二,b. 1949,1949,,birth
+ihl_artist_295,Inoue Seiji 井上精二,active Taishō era,,,active
+ihl_artist_296,Eda Rankei 枝蘭渓,active Meiji era,,,active
+ihl_artist_297,Ishii Rinkyō 石井林響,1884-1930,1884,1930,birth-death
+ihl_artist_298,Itō Chūta 伊東忠太,1867-1954,1867,1954,birth-death
+ihl_artist_299,James A. Michener,1907-1997,1907,1997,birth-death
+ihl_artist_300,Kakiuchi Seiyō (a.k.a. Kakiuchi Aoba) 柿内青葉,1890-1982,1890,1982,birth-death
+ihl_artist_301,Katsukawa Shunkō 勝川春好,1743-1812,1743,1812,birth-death
+ihl_artist_302,Kawai Gyokudō 川合玉堂,1873-1957,1873,1957,birth-death
+ihl_artist_303,Kawakami Tōgai 川上冬崖,1828-1881,1828,1881,birth-death
+ihl_artist_304,Kawakami Tōgai 川上冬崖,1827-1881,1827,1881,birth-death
+ihl_artist_305,Fukuta? 福太,dates unknown,,,unknown
+ihl_artist_306,Kawakami Tōgai 川上冬崖,1827-1881,1827,1881,birth-death
+ihl_artist_307,Kawakita Kahō 川北霞峰,1875-1940,1875,1940,birth-death
+ihl_artist_308,Kawamura Manshū 川村曼舟,1880-1942,1880,1942,birth-death
+ihl_artist_309,Nakagawa Kazumasa 中川一政,1893-1991,1893,1991,birth-death
+ihl_artist_310,Kikkawa Reika 吉川霊華,1875-1929,1875,1929,birth-death
+ihl_artist_311,Kitagami Seigyū 北上聖牛,1891-1970,1891,1970,birth-death
+ihl_artist_312,Kitagawa Utamaro 喜多川歌麿,1753-1806,1753,1806,birth-death
+ihl_artist_313,Kitagawa Utamaro 喜多川歌麿,1753-1806,1753,1806,birth-death
+ihl_artist_314,Hasegawa Roka 長谷川路可,1897-1967,1897,1967,birth-death
+ihl_artist_315,Kitazawa Rakuten 北澤楽天,1876-1955,1876,1955,birth-death
+ihl_artist_316,Kiyonao 清直,active. c. 1844,1844,1844,active
+ihl_artist_317,Kobayashi Kaichi 小林かいち,1896-1968,1896,1968,birth-death
+ihl_artist_318,Kosugi Misei 小杉未醒,1881-1964,1881,1964,birth-death
+ihl_artist_319,Kotō 湖東,active c. 1900,1900,1900,active
+ihl_artist_320,Kumazawa Kitarō 熊澤喜太郎,active c. 1880-1905,1880,1905,active
+ihl_artist_321,Kuroki Hannosuke 黒木半之助,active late Meiji period,,,active
+ihl_artist_322,Kūrosaki Shusai 黒崎修齋,1877-?,1877,,birth
+ihl_artist_323,Maeda Seison 前田青邨,1885-1977,1885,1977,birth-death
+ihl_artist_324,Masuda Gorō 増田五良,1895-?,1895,,birth
+ihl_artist_325,Masuda Gyokujō 益田玉城,1881-1955,1881,1955,birth-death
+ihl_artist_326,Minagawa Taizō 皆川泰蔵,1917-2005,1917,2005,birth-death
+ihl_artist_327,Mizuta Chikuho 水田竹圃,1883-1958,1883,1958,birth-death
+ihl_artist_328,Morikawa Seiha 森川青玻,active Taishō era,,,active
+ihl_artist_329,Morita Kanjirō 森田寬次郎,active c. 1927,1927,1927,active
+ihl_artist_330,Morita Tsunetomo 森田恒友,1881-1933,1881,1933,birth-death
+ihl_artist_331,Nakamura Gakuryō 中村岳陵,1890-1969,1890,1969,birth-death
+ihl_artist_332,Nishida Seiha 西田青坡,1895-1979,1895,1979,birth-death
+ihl_artist_333,Nonoguchi Shigeru 野々口重,1912-?,1912,,birth
+ihl_artist_334,Ōhno Takashi 大野隆司,b. 1951,1951,,birth
+ihl_artist_335,Ōta Saburō 大田三郎,1884-1969,1884,1969,birth-death
+ihl_artist_336,Paul Jacoulet ポールジャクレー,1896-1960,1896,1960,birth-death
+ihl_artist_337,Sakai Hideo 酒井秀夫,1902-1981,1902,1981,birth-death
+ihl_artist_338,Sakai Hōitsu 酒井抱一,1761-1829,1761,1829,birth-death
+ihl_artist_339,Sekine Takejirō 関根竹二郎,active 1887-1896,1887,1896,active
+ihl_artist_340,Shien 紫園,active 1930-1950s,1930,1950,active
+ihl_artist_341,Shiizuka Shiyōka 椎塚蕉華,1884-1934,1884,1934,birth-death
+ihl_artist_342,Shimomura Kanzan 下村観山,1873-1930,1873,1930,birth-death
+ihl_artist_344,Sugiyama Yasushi 杉山寧,1909-1993,1909,1993,birth-death
+ihl_artist_345,Suzuki Harunobu 鈴木春信,1724-1770,1724,1770,birth-death
+ihl_artist_346,Takahashi Shōtei,1871-1945,1871,1945,birth-death
+ihl_artist_347,Takahashi Shōtei,1871-1945,1871,1945,birth-death
+ihl_artist_348,Takasawa Keiichi 高沢圭一,1914-1984,1914,1984,birth-death
+ihl_artist_349,Takeda Keihō 竹田敬方,1873-1942,1873,1942,birth-death
+ihl_artist_350,Tamaya Shunki 玉舎春輝,1880-1947,1880,1947,birth-death
+ihl_artist_351,Tamura Fumio 田村文雄,b. 1941,1941,,birth
+ihl_artist_352,Tamura Saiten 田村彩天,1889-1933,1889,1933,birth-death
+ihl_artist_353,Tanaka Hisara 田中比左良,1890-1974,1890,1974,birth-death
+ihl_artist_354,Tanaka Ryōzō 田中良三,1874-1946,1874,1946,birth-death
+ihl_artist_355,Taniguchi Tōsen 谷口桃僊,,,,unknown
+ihl_artist_356,Terashima Shimei 寺島紫明,1892-1975,1892,1975,birth-death
+ihl_artist_357,Tōjirō Ōshita 大下藤次郎,1870-1911,1870,1911,birth-death
+ihl_artist_358,Tomioka Tessai 富岡鉄斎,1836-1924,1836,1924,birth-death
+ihl_artist_359,Torii Kiyonobu 鳥居清信,1664-1729,1664,1729,birth-death
+ihl_artist_360,Toshishige 年重,active c. 1888,1888,1888,active
+ihl_artist_361,Tsuchiya Hiroshi 土谷傳,active c. 1920-1936,1920,1936,active
+ihl_artist_362,Tsunajima Kamekichi 綱島亀吉,active 1866-1918,1866,1918,active
+ihl_artist_363,Hōei 峰栄,active 1894,1894,1894,active
+ihl_artist_364,Suzuki Kinsen 鈴木錦泉,1867-1945,1867,1945,birth-death
+ihl_artist_365,Utagawa Hiroshige 歌川広重,1797-1858,1797,1858,birth-death
+ihl_artist_366,Utagawa Toyokuni 歌川豊国,1769-1825,1769,1825,birth-death
+ihl_artist_367,Yoshikawa Kanpō 吉川観方,1894-1979,1894,1979,birth-death
+ihl_artist_368,Ki Chikudō 紀竹堂,-1825,,1825,death
+ihl_artist_369,Kikuchi Yūichi 菊地友一,1912-1993,1912,1993,birth-death
+ihl_artist_370,Yoda Chikkoku 依田竹谷,1790-1843,1790,1843,birth-death
+ihl_artist_371,Yonehide 米英,active 1904,1904,1904,active
+ihl_artist_372,Ogami Nanryō 小上南嶺,(1893-1966),1893,1966,birth-death
+ihl_artist_373,Kagawa Tokio 香川軍男,(1915-2002),1915,2002,birth-death
