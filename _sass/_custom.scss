@@ -2,3 +2,100 @@
     Put your custom SCSS here! 
     This allows you to override any CollectionBuilder or Bootstrap CSS without modifying the base theme files directly.
 */
+
+.artist-summary {
+    border: 1px solid #d8e0e8;
+    border-left: 4px solid #6f8fb3;
+    background: #f8fafc;
+    padding: 1rem 1.125rem;
+}
+
+.artist-summary dl {
+    display: grid;
+    gap: .65rem 1.25rem;
+    margin: 0;
+}
+
+.artist-summary dl > div {
+    display: grid;
+    grid-template-columns: 6rem 1fr;
+    gap: .75rem;
+}
+
+.artist-summary dt {
+    color: #4e5f70;
+    font-weight: 700;
+}
+
+.artist-summary dd {
+    margin: 0;
+}
+
+.artist-bio {
+    max-width: 860px;
+}
+
+.artist-bio h2 {
+    border-bottom: 1px solid #d8e0e8;
+    font-size: 1.65rem;
+    margin-bottom: 1rem;
+    padding-bottom: .45rem;
+}
+
+.artist-bio-text {
+    color: #1f2933;
+    font-size: 1.05rem;
+    line-height: 1.75;
+}
+
+.artist-bio-text p {
+    margin-bottom: 1.1rem;
+}
+
+.artist-bio-text p:first-child {
+    color: #3f4d5a;
+    font-weight: 700;
+}
+
+.artist-bio-text a,
+.artist-references a {
+    text-decoration-thickness: .08em;
+    text-underline-offset: .18em;
+}
+
+.artist-bio-text .short-url {
+    overflow-wrap: anywhere;
+}
+
+.artist-references {
+    border-top: 1px solid #d8e0e8;
+    margin-top: 2rem;
+    padding-top: 1rem;
+}
+
+.artist-references h3 {
+    color: #4e5f70;
+    font-size: 1.05rem;
+    font-weight: 700;
+    letter-spacing: 0;
+    margin-bottom: .65rem;
+}
+
+.artist-references ol {
+    display: grid;
+    gap: .35rem;
+    margin-bottom: 0;
+    padding-left: 1.35rem;
+}
+
+.artist-references li {
+    color: #5f6f80;
+    padding-left: .15rem;
+}
+
+@media (max-width: 575.98px) {
+    .artist-summary dl > div {
+        grid-template-columns: 1fr;
+        gap: .15rem;
+    }
+}

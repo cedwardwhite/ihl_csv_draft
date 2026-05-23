@@ -15,10 +15,24 @@ layout: default
 
     <div class="my-4">
         <h1>{{ page.title }}</h1>
-        <div class="alert alert-primary" >
-            <strong>Date:</strong> {{ page.date }} <br>
-            <strong>Status:</strong> {{ page.status }} <br>
-            <strong>MyJapaneseHanga Link:</strong> <a href="{{ page.link_original }}" >{{ page.link_original }}</a>
+        <div class="artist-summary" >
+            <dl>
+                <div>
+                    <dt>Date</dt>
+                    <dd>{{ page.date }}</dd>
+                </div>
+                <div>
+                    <dt>Status</dt>
+                    <dd>{{ page.status }}</dd>
+                </div>
+            {% assign artist_source_link = page.link_original | default: page.link %}
+            {% if artist_source_link %}
+                <div>
+                    <dt>Source</dt>
+                    <dd><a href="{{ artist_source_link }}" >MyJapaneseHanga artist page</a></dd>
+                </div>
+            {% endif %}
+            </dl>
         </div>
         
     </div>
@@ -43,19 +57,115 @@ layout: default
 
     </div>
 
-    <div class="mb-4">
-        <h2>{{ page.title }}</h2><!--cew clipped "About" from page title, add back if ever needed-->
+    <section class="artist-bio mb-4" aria-labelledby="artist-bio-heading">
+        <h2 id="artist-bio-heading">{{ page.title }}</h2><!--cew clipped "About" from page title, add back if ever needed-->
 
-        {% if page.bio_html_clean %}
-            {{ page.bio_html_clean }}
-        {% elsif page.bio_html %}
-            {{ page.bio_html }}
+        <div class="artist-bio-text">
+        {% if page.bio_text %}
+            {{ page.bio_text | markdownify }}
         {% elsif page.bio_md %}
             {{ page.bio_md | markdownify }}
         {% else %}
             <p><em>Biography unavailable.</em></p>
         {% endif %}
+        </div>
 
-    </div>
+        {% if page.bio_references %}
+        <div class="artist-references">
+        <h3>References</h3>
+        <ol>
+            {% assign refs = page.bio_references | split: " ; " %}
+            {% for ref in refs %}
+                {% assign parts = ref | split: " | " %}
+                {% assign ref_label = parts[0] | strip %}
+                {% assign ref_url = parts[1] | default: parts[0] | strip %}
+                {% assign display_label = ref_label %}
+                {% if ref_label == "link" %}
+                    {% assign display_label = "MyJapaneseHanga page" %}
+                {% elsif ref_label == "link_original" %}
+                    {% assign display_label = "MyJapaneseHanga archived page" %}
+                {% elsif ref_label == "momjh_biography_url" %}
+                    {% assign display_label = "More of MyJapaneseHanga biography" %}
+                {% elsif ref_label contains "http://" or ref_label contains "https://" %}
+                    {% assign display_label = ref_url | replace: "https://", "" | replace: "http://", "" | split: "/" | first %}
+                {% endif %}
+                <li><a href="{{ ref_url }}">{{ display_label | truncate: 90 }}</a></li>
+            {% endfor %}
+        </ol>
+        </div>
+        {% endif %}
+
+    </section>
 
 </div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    var bio = document.querySelector(".artist-bio-text");
+    if (!bio) {
+        return;
+    }
+
+    function shortUrl(url) {
+        try {
+            var parsed = new URL(url);
+            var path = parsed.pathname.replace(/\/$/, "").split("/").filter(Boolean).pop() || "";
+            path = decodeURIComponent(path).replace(/\.(html?|pdf)$/i, "").replace(/[-_]+/g, " ");
+            if (path.length > 46) {
+                path = path.slice(0, 43).trim() + "...";
+            }
+            return path ? parsed.hostname + ": " + path : parsed.hostname;
+        } catch (error) {
+            return url.length > 54 ? url.slice(0, 51) + "..." : url;
+        }
+    }
+
+    var walker = document.createTreeWalker(bio, NodeFilter.SHOW_TEXT, {
+        acceptNode: function (node) {
+            if (node.parentElement && node.parentElement.closest("a")) {
+                return NodeFilter.FILTER_REJECT;
+            }
+            return /https?:\/\/\S+/.test(node.nodeValue) ? NodeFilter.FILTER_ACCEPT : NodeFilter.FILTER_REJECT;
+        }
+    });
+
+    var nodes = [];
+    while (walker.nextNode()) {
+        nodes.push(walker.currentNode);
+    }
+
+    nodes.forEach(function (node) {
+        var fragment = document.createDocumentFragment();
+        var text = node.nodeValue;
+        var pattern = /https?:\/\/[^\s<>)\]}"']+/g;
+        var lastIndex = 0;
+        var match;
+
+        while ((match = pattern.exec(text)) !== null) {
+            var rawUrl = match[0];
+            var trailing = "";
+            while (/[.,;:]$/.test(rawUrl)) {
+                trailing = rawUrl.slice(-1) + trailing;
+                rawUrl = rawUrl.slice(0, -1);
+            }
+
+            fragment.appendChild(document.createTextNode(text.slice(lastIndex, match.index)));
+
+            var link = document.createElement("a");
+            link.href = rawUrl;
+            link.textContent = shortUrl(rawUrl);
+            link.className = "short-url";
+            fragment.appendChild(link);
+
+            if (trailing) {
+                fragment.appendChild(document.createTextNode(trailing));
+            }
+
+            lastIndex = match.index + match[0].length;
+        }
+
+        fragment.appendChild(document.createTextNode(text.slice(lastIndex)));
+        node.parentNode.replaceChild(fragment, node);
+    });
+});
+</script>

@@ -1,6 +1,6 @@
 { 
     "title": "My Japanese Hanga Collection",
-    "url": "https://pages.uoregon.edu/cew/ihl-multitable/",
+    "url": "https://pages.uoregon.edu/cew/",
     "image": "https://pages.uoregon.edu/cew/objects/ihl-1813.jpg", 
     "description": "A distillation of data from original <a href="http://www.myjapanesehanga.com/" target="_blank">myjapanesehanga.com website</a>",
     "publisher": { 
@@ -15,7 +15,7 @@
         "application/pdf": "2"
         
     },
-    "data": "https://pages.uoregon.edu/cew/ihl-multitable/assets/data/datapackage.json",
+    "data": "https://pages.uoregon.edu/cew/assets/data/datapackage.json",
     "last_build_date": "2026-05-22"
 }
 
